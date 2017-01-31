@@ -1,0 +1,25 @@
+KiCad
+-----
+
+- Edit Diode footprint to allow a larger solder area.
+
+- Edit transistor (3904 and Mosfet) footprint to have a smaller solder area.
+
+- Edit LED footprints to use some of the excess LEDs on hand
+
+- Rotate connectors so wire leads come in from the board edge.
+
+- Correct the error in the relay drive circuit where R28 and R29 should
+  pull down the gate pin instead of connecting the source pin to ground.
+
+- Add identifying labels to the ISP header.
+
+- Edit 4.7uH inductor footprint so it has more overhang on the sides to
+  allow easier soldering.
+
+
+Software
+--------
+
+- Modify button code so turnout controls are two state toggle switches and
+  BTNPLUS/BTNMINUS are push buttons.
